@@ -15,10 +15,11 @@ public void m1(){
     System.out.println("Class A m1");
 }
 public void m2(int x, int y){
-    System.out.println("Sum of int's = "+(x+y));
+    System.out.println("Sum of int's = "+(x+y));//Method overloading
 }
 }
 class B extends A{
+    //Method overriding
     public void m1(){
         System.out.println("Class B m1");
 }
